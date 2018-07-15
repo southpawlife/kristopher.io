@@ -1,24 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>kristopher.io</title>
+---
+layout: default
+---
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-    <!-- Kube CSS -->
-    <link rel="stylesheet" href="assets/css/kube.css">
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-</head>
-<body bgcolor="#E6DBCD" style="font-family: 'Space Mono', monospace;">
-    <div class="row align-center">
-    <h2>kristopher.io</h2>
-    <a href="mailto:email@kristopher.io">email@kristopher.io</a>
-    </div>
-  
-    <!-- Kube JS + jQuery are used for some functionality, but are not required for the basic setup -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="assets/js/kube.js"></script>
-</body>
-</html>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+<div align="center">
+<p>{{ site.time | date: '%Y' }}&nbsp;•&nbsp;Kristopher&nbsp;Williams<br />
+</div>
