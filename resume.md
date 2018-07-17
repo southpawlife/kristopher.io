@@ -3,7 +3,7 @@ layout: page
 title: Resume
 ---
 # _Kristopher Williams_
-kbw_at_spu_dot_edu | Kansas City, MO
+<a href="mailto:email@kristopher.io">email@kristopher.io</a> | Kansas City, MO
 ## Bachelor of Science, Computer Science<br />Minor, Computer Engineering
 #### Seattle Pacific University, Winter 2012
 
@@ -16,7 +16,7 @@ Languages: _Ruby, Java, JavaScript, CCL, Clojure, Bash_<br/>
 Technologies: _Hadoop, Apache Crunch, AWS, Rails, Jenkins, Clara, Kerberos, Docker, Mesos, Tomcat, Git, Grape_
 
  * Write Apache Crunch pipelines, utilizing Hadoop, Oozie, and other big data tooling.
- * Collaborate with OpenAPI teams to design [public](https://docs.healtheintent.com/api/v1/risk_assessment/) REST services.
+ * Collaborate with OpenAPI teams to design public REST services. ([example](https://docs.healtheintent.com/api/v1/risk_assessment/))
  * Design initial structure of new Java services, and web front-end applications.
  * Mentor interns, and new hires, providing advice, guidance, and direction.
  * Optimize daily workflows for building, and releasing code in a reliable fashion.
