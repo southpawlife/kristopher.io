@@ -31,8 +31,12 @@
  * Update the foundational and global aspects of the page.
  */
 
+.center {
+  text-align: center;
+}
+
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 @media (min-width: 48rem) {
   html {
