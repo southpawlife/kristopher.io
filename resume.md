@@ -11,25 +11,31 @@ title: Resume
 
 # Work Experience
 ## Sr. Software Engineer<br/>Cerner Corporation
+Currently writing big-data processing pipelines, designing modular component services and REST APIs, for Cerner Corporation's HealtheIntent Platform.
+
 Timeframe: _July 2012 - Present_<br/>
-Languages: _Ruby, Java, JavaScript, CCL, Clojure, Bash_<br/>
+Languages: _Java, Ruby,Bash, JavaScript, CCL, Clojure_<br/>
 Technologies: _Hadoop, Apache Crunch, AWS, Rails, Jenkins, Clara, Kerberos, Docker, Mesos, Tomcat, Git, Grape_
 
+ 
  * Write Apache Crunch pipelines, utilizing Hadoop, Oozie, and other big data tooling.
- * Collaborate with OpenAPI teams to design public REST services. ([example](https://docs.healtheintent.com/api/v1/risk_assessment/))
- * Design initial structure of new Java services, and web front-end applications.
+ * Collaborate with leaders to design new component REST services. ([example](https://docs.healtheintent.com/api/v1/risk_assessment/))
+ * Design initial structure of new Java services, and web front-end applications, helping plan out work for others.
  * Mentor interns, and new hires, providing advice, guidance, and direction.
  * Optimize daily workflows for building, and releasing code in a reliable fashion.
 
-## Principle Software Engineer<br />[geni-act.org](geni-act.org) | [geni-science.org](geni-science.org)
+## Principle Software Engineer<br />[geni-act.org](geni-act.org)
 Timeframe: _January 2010 - Present_<br/>
-Languages: _Ruby, PHP_<br/>
+Languages: _Ruby, Python_<br/>
 Technologies: _AWS, Rails, DigitalOcean, Nginx_
+
+Creating a research platform for undergraduate students, and instructors to be able to contribute to novel research projects.
 
  * Utilize AWS to deploy staging & production platforms.
  * Participate in regular remote meetings to discuss functionality, and showcase latest development.
  * Collaborate with researchers across the country.
  * Design, and implementing new ideas to push the platform forward.
+ * Currently NSF funded, but striving to create a sustainable business model.
 
 <hr>
 
