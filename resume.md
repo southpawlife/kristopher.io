@@ -4,55 +4,64 @@ title: Resume
 ---
 # _Kristopher Williams_
 <a href="mailto:email@kristopher.io">email@kristopher.io</a> | Kansas City, MO
-## Bachelor of Science, Computer Science<br />Minor, Computer Engineering
+## Bachelor of Science, Computer Science<br/>Minor, Computer Engineering
 #### Seattle Pacific University, Winter 2012
 
 <hr>
 
 # Work Experience
-## Sr. Software Engineer<br/>Cerner Corporation
-Currently writing big-data processing pipelines, designing modular component services and REST APIs, for Cerner Corporation's HealtheIntent Platform.
 
-Timeframe: _July 2012 - Present_<br/>
-Languages: _Java, Ruby,Bash, JavaScript, CCL, Clojure_<br/>
-Technologies: _Hadoop, Apache Crunch, AWS, Rails, Jenkins, Clara, Kerberos, Docker, Mesos, Tomcat, Git, Grape_
+## Principle Software Engineer<br/>[geni-act.org](geni-act.org)
+Time frame: _January 2010 - Present_<br/>
+Languages: _Ruby, Python, SQL, JavaScript_<br/>
+Technologies: _AWS, Rails, Nginx, Git_
 
- 
- * Write Apache Crunch pipelines, utilizing Hadoop, Oozie, and other big data tooling.
- * Collaborate with leaders to design new component REST services. ([example](https://docs.healtheintent.com/api/v1/risk_assessment/))
- * Design initial structure of new Java services, and web front-end applications, helping plan out work for others.
- * Mentor interns, and new hires, providing advice, guidance, and direction.
- * Optimize daily workflows for building, and releasing code in a reliable fashion.
+Creating a research platform for undergraduate students, and instructors to be able to contribute to novel research projects. This project is currently NSF funded, but I have been striving to create a sustainable business model.
 
-## Principle Software Engineer<br />[geni-act.org](geni-act.org)
-Timeframe: _January 2010 - Present_<br/>
-Languages: _Ruby, Python_<br/>
-Technologies: _AWS, Rails, DigitalOcean, Nginx_
-
-Creating a research platform for undergraduate students, and instructors to be able to contribute to novel research projects.
-
+ * Implemented logic for importing NCBI Genome data into the GENI-ACT platform.
  * Utilize AWS to deploy staging & production platforms.
- * Participate in regular remote meetings to discuss functionality, and showcase latest development.
+ * Participate in regular remote meetings with clients to discuss requirements and functionality.
  * Collaborate with researchers across the country.
- * Design, and implementing new ideas to push the platform forward.
- * Currently NSF funded, but striving to create a sustainable business model.
+ * Drive new ideas forward by presenting rapid prototypes of new functionality.
+ 
+<hr>
+
+## Senior Software Engineer<br/>Cerner Corporation
+
+Wrote big-data processing pipelines, designing modular component services and REST APIs, for Cerner Corporation's HealtheIntent Platform. 
+
+Time frame: _July 2012 - March 2019_<br/>
+Languages: _Java, Ruby, CCL_<br/>
+Technologies: _Apache Crunch, AWS, Rails, Jenkins, Git, GitHub_
+
+ * Wrote MaReduce processing pipelines, utilizing Apache Crunch, Oozie, and other big data tooling.
+ * Collaborate with product owners to design and implmenent new component REST services. ([example](https://docs.healtheintent.com/api/v1/risk_assessment/))
+ * Implemented a modular testing framework for validating IRF-PAI (Inpatient Rehabilitation Facility Patient Assessment Instrument) outputs, prior to uploading to third party solutions.  
+ * Mentored new hires and interns, providing advice, guidance, and direction.
 
 <hr>
 
-# Side Projects
-### [southpawlife/tongs](https://github.com/southpawlife/tongs)
-Timeframe: _2015_<br/>
-Languages: _Go_
- * Designed, and implemented open source utility for generating code reviews in Atlassian Crucible.
- * Learned the basics of Go programming language.
+# Other Projects
+## [geniactdevops/geni-svgenes](https://github.com/geniactdevops/geni-svgenes)
 
-### [geniactdevops/geni-svgenes](https://github.com/geniactdevops/geni-svgenes)
-Timeframe: _2016_<br/>
-Languages: Ruby
- * Forked, altered, and released Ruby gem.
- * Created to draw specific genome graphs for use in geni-act.org.
+Enhanced an open source gem for drawing genome graphs, for use in the GENI-ACT Platform.
 
----
-_Note: Languages listed indicate languages that I have written in, but not necessarily mastered. I do not think an engineer needs to have mastery
-of a language to be competent. In fact, I find it to be more ideal to be able to move from language to language, learning quickly
-what is needed rather than trying to use a comfortable language to solve all problems._
+Time frame: _2016_<br/>
+Languages: _Ruby_<br/>
+
+ * Gained some experience with SVG drawing.
+
+<hr>
+
+## [southpawlife/tongs](https://github.com/southpawlife/tongs)
+
+Designed and implemented an open source utility for generating code reviews in Atlassian Crucible.
+
+Time frame: _2015_<br/>
+Languages: _Go_<br/>
+
+ * Learned the basics of the Go programming language.
+ * Shared utility amongst team to improve efficiency.
+
+
+
