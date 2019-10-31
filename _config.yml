@@ -24,3 +24,5 @@ github:
   repo:           https://github.com/southpawlife
 
 plugins: [jekyll-paginate]
+
+theme: jekyll-theme-hacker
